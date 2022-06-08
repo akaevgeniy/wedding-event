@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.absolute-text {
+  color: white;
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.header_text {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 37px;
+  font-weight: 800;
+}
+.title {
+  font-family: 'Source Serif Pro', serif;
+}
+.subtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
