@@ -54,7 +54,7 @@ function FlameAnimation() {
           ></path>
         </svg>
       </div>
-      <Image style={{ position: 'absolute', maxWidth: '200px', zIndex: '5', top: 215 }} src={blackdrum} />
+      <Image style={{ position: 'absolute', maxWidth: '200px', zIndex: '5', top: 215 }} alt='Black drum animated pic' src={blackdrum} />
     </Container>
   );
 }
