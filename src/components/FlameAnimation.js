@@ -5,7 +5,7 @@ import blackdrum from '../assets/blackdrum1.png';
 
 function FlameAnimation() {
   return (
-    <Container style={{paddingBottom: 520}} className="d-flex flex-column align-items-center justify-content-center position-relative">
+    <Container style={{paddingBottom: 505}} className="d-flex flex-column align-items-center justify-content-center position-relative">
       <div className="mo-fire">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ function FlameAnimation() {
           ></path>
         </svg>
       </div>
-      <Image style={{ position: 'absolute', maxWidth: '200px', zIndex: '5', top: 250 }} src={blackdrum} />
+      <Image style={{ position: 'absolute', maxWidth: '200px', zIndex: '5', top: 215 }} src={blackdrum} />
     </Container>
   );
 }
