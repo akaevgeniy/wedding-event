@@ -6,7 +6,7 @@ function Playlist() {
       <h3 style={{ color: 'white' }} className="title mb-1">
       ПЛЕЙЛИСТ НА СТИЛЕ
       </h3>
-      <p style={{ color: 'white' }} className="subtitle me-3 ms-3 border-top border-white pt-1">
+      <p style={{ color: 'white', fontSize: '15px' }} className="subtitle me-3 ms-3 border-top border-white pt-1">
         {`Мы собрали специальный тематический плейлист, чтобы вы окунулись в атмосферу уже сейчас. Да, он тоже специфический ;)`}
       </p>
       <iframe

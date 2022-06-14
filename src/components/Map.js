@@ -6,7 +6,7 @@ function Map() {
       <h3 style={{ color: 'white' }} className="title p-2 pb-0 pt-0">
         Торжество состоится по адресу:
       </h3>
-      <p style={{ color: 'white' }} className="subtitle p-2 pb-0 pt-0">
+      <p style={{ color: 'white', fontSize: '15px' }} className="subtitle p-2 pb-0 pt-0">
         Чувашская Республика, Моргаушский район, деревня Кадикасы, улица
         Пушкина, 33 (Зелёная Усадьба)
       </p>
