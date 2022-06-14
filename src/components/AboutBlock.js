@@ -4,10 +4,10 @@ import lady from '../assets/gatsbyvintage.jpg';
 
 function AboutBlock() {
   return (
-    <Container className='mt-3 p-2'>
-    <Container className="pt-2 d-flex flex-column align-items-center justify-content-center border border-white">
-      <h3 style={{ color: 'white' }} className="title text-center">
-        {`Свадьба в британском стиле 20-х годов`}
+    <Container className='mt-3 p-2 pb-0 pt-0'>
+    <Container className="p-2 d-flex flex-column align-items-center justify-content-center">
+      <h3 style={{ color: 'white' }} className="title text-center border-bottom border-white pb-1">
+        {`СВАДЬБА В БРИТАНСКОМ СТИЛЕ 20-Х ГОДОВ`}
       </h3>
       <p style={{ color: 'white' }} className="mb-2 subtitle">
         {`Привет! Мы решили провести тематическую свадьбу, просим тебя поддержать нас в этом :)`}
@@ -31,6 +31,9 @@ function AboutBlock() {
       </p>
       <p style={{ color: 'white' }} className="mb-0 pb-2 subtitle">
         {`Давайте представим, что это будет не просто свадьба, а гангстерская сходка :)`}
+      </p>
+      <p style={{ color: 'white' }} className="mb-0 pb-2 subtitle">
+        {`By order of the Peaky Blinders`}
       </p>
     </Container>
     </Container>

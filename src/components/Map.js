@@ -1,12 +1,12 @@
-import { Container, } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 function Map() {
   return (
-    <Container className="mt-3 d-flex flex-column align-items-center justify-content-center">
-      <h3 style={{ color: 'white' }} className="title">
+    <Container className="mt-3 p-2 d-flex flex-column align-items-center justify-content-center">
+      <h3 style={{ color: 'white' }} className="title p-2 pb-0 pt-0">
         Торжество состоится по адресу:
       </h3>
-      <p style={{ color: 'white' }} className="subtitle">
+      <p style={{ color: 'white' }} className="subtitle p-2 pb-0 pt-0">
         Чувашская Республика, Моргаушский район, деревня Кадикасы, улица
         Пушкина, 33 (Зелёная Усадьба)
       </p>

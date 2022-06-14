@@ -3,11 +3,11 @@ import { Container } from 'react-bootstrap';
 function Playlist() {
   return (
     <Container className="mt-3 p-0 d-flex flex-column align-items-center justify-content-center">
-      <h3 style={{ color: 'white' }} className="title">
-        Плейлист на стиле 
+      <h3 style={{ color: 'white' }} className="title mb-1">
+      ПЛЕЙЛИСТ НА СТИЛЕ
       </h3>
-      <p style={{ color: 'white' }} className="subtitle pe-3 ps-3">
-        {`Мы собрали специальный тематический плейлист, чтобы вы окунулись в атмосферу торжества уже сейчас (да, он тоже специфический ;))`}
+      <p style={{ color: 'white' }} className="subtitle me-3 ms-3 border-top border-white pt-1">
+        {`Мы собрали специальный тематический плейлист, чтобы вы окунулись в атмосферу уже сейчас. Да, он тоже специфический ;)`}
       </p>
       <iframe
         frameborder="0"
@@ -18,7 +18,7 @@ function Playlist() {
       >
         Слушайте{' '}
         <a href="https://music.yandex.ru/users/akaevgeniy/playlists/1008">
-          Peaky Blinders
+         Be like Peaky Blinders
         </a>{' '}
         — <a href="https://music.yandex.ru/users/akaevgeniy">akaevgeniy</a> на
         Яндекс Музыке

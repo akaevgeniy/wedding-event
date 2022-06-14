@@ -17,7 +17,7 @@ function MainPages() {
       <AboutBlock/>
       <Playlist />
       <Map />
-      <Loading/>
+      {/* <Loading/> */}
       <FlameAnimation />
     </>
   );
